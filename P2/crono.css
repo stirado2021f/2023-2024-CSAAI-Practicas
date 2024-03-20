@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: black;
+}
+
+#clave {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.digitos {
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#display {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    padding: 20px;
+    margin-top: 20px;
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    background-color: black;
+}
+.tecla {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+}
