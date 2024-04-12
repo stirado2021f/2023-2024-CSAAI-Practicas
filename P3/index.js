@@ -7,7 +7,7 @@ let xp = xop;
 let yp = yop;
 let ldx = 50;  
 let ldy = 50;  
-let pcolor = 'purple' 
+let pcolor = 'black' 
 
 //-- Coordenadas iniciales del objetivo
 let xomin = 200;
@@ -15,7 +15,7 @@ let xomax = 770;
 let xo = getRandomInt(xomin, xomax);
 let yo = 370;
 
-let ocolor = 'black';
+let ocolor = 'red';
 
 
 //-- Displays
