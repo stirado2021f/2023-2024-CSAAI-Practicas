@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#09f">
+        <title> 🧠 Memory </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="memory.js" defer></script>
+    </head>
+    <body>
+        <h1> 🍄MEMORY GAME🍄</h1>
+        <div class="game">
+            <div class="controles">
+                <label for="dimensiones">Seleccione el tamaño del tablero:</label>
+                <select id="dimensiones" name="dimensiones">
+                    <option value="2">2x2</option>
+                    <option value="4">4x4</option>
+                    <option value="6">6x6</option>
+                </select> <br> <br>
+                <button class="comenzar">Comenzar</button>
+                <button  class="reinicio">Reiniciar</button>
+                <div class="display">
+                    <div class="movimientos">0 movimientos</div>
+                    <div class="timer">tiempo: 0 sec</div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="tablero" grid-dimension="">
+                    <div class="card">
+                        <div class="card-front"></div>
+                        <div class="card-back">⛔</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-front"></div>
+                        <div class="card-back">⛔</div>
+                    </div>
+                </div>
+                <div class="win">¡Has Ganado!</div>
+            </div>
+        </div>
+    </body>
+</html>
