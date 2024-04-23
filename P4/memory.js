@@ -221,6 +221,9 @@ const flipCard = card => {
         // Si las cartas coinciden las marcamos como pareja 
         // añadiendo la clase correspondiente
         if (flippedCards[0].innerText === flippedCards[1].innerText) {
+            audio_coin = new window.Audio('./audio/mario-coin.mp3')
+            audio_coin.volume = 0.5
+            audio_coin.play()
             flippedCards[0].classList.add('matched')
             flippedCards[1].classList.add('matched')
         }
